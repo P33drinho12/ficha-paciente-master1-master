@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #540B0E;
+}
+.cabecalho{
+    width: 100vw;
+    height: 10vh;
+    background-color: #CB997E;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 40px;
+    box-shadow: 2px -2px 2px;
+    padding-top: 15px;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+.campo{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+    border: 0;
+    padding-top: 30px;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+}
+img{
+    padding-bottom: 10px;
+}
+.campo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+}
+label{
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: "Cairo", sans-serif;
+}
+input{
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;  
+    margin: 3px;
+}
+.enviar{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #E72227;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+a.voltar{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #E72227;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.enviar:hover{
+    color: gray;
+    background-color: #000000;
+}
+.voltar:hover{
+    color: gray;
+    background-color: #000000;
+}
+input[type=text] {
+    background-color: #E72227;
+    color: white;
+}
+input[type=password] {
+    background-color: #E72227;
+    color: white;
+}
+#nome::placeholder{
+    color: white;
+}
+#email::placeholder{
+    color: white;
+}
+#telefone::placeholder{
+    color: white;
+}
+#senha::placeholder{
+    color: white;
+}

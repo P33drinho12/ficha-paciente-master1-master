@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: solid 1px;
+    background-color: #540B0E;
+}
+.cabecalho{
+    width: 100%;
+    font-size: 15px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    color: #ffff;
+    background-color: #CB997E;
+}
+h1{
+    font-size: 20px;
+    padding: 0%;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+}
+p{
+    font-size: 9px;
+    color: #ffff;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+}
+header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.cabecalho2{
+    width: 90%;
+    font-size: 15px;
+    border: solid 1px;
+}
+.logo{
+    width: 130px;
+    height: 100px;
+    position: relative;
+    margin: 0;
+    margin-left: 20px;
+}
+.campo1{
+    display: block;
+    margin-bottom: 0.2em;
+    justify-content: space-between;
+    color: #ffff;
+    font-family: "Cairo", sans-serif;
+}
+.campo1 input[type="text"], .campo1 input[type="number"], .campo1 input[type="date"], .campo2_2 input[type="text"] {
+    border-radius: 0.3rem;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.campo1 input[type="text"]{
+    width: 180px;
+}
+.campo1 label{
+    font-size: 16px;
+}
+.campo2{
+    display: block;
+    margin-bottom: 0.2em;
+    justify-content: space-between;
+    padding: 0.5em;
+    padding-bottom: 0;
+    padding-top: 0.5em;
+    color: #ffff;
+    font-size: 15px;
+    font-family: "Cairo", sans-serif;
+}
+.campo2 label{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.campo2 input[type="text"], .campo2 input[type="checkbox"]{
+    border-radius: 0.3rem;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+.campo2_2{
+    display: block;
+    margin-bottom: 0.2em;
+    justify-content: space-between;
+    padding: 0.5em;
+    color: #ffff;
+    font-family: "Cairo", sans-serif;
+    
+}
+.campo2_2 input[type="text"], .campo1 input[type="number"]{
+    width: 200px;
+    margin-top: 10px;
+}
+#idade_paciente, #idade_acompanhante{
+    width: 30px;
+}
+input[type=submit] {
+    width: 150px;
+    background: #E72227;
+    color: white;
+    margin-left: 100px;
+}
+input[type=text]:hover,
+.input:hover {
+    background: #cccccc;
+    border: 1px solid #E72227;
+}
+input[type=number]:hover,
+.input:hover {
+    background: #cccccc;
+    border: 1px solid #E72227;
+}
+input[type=radio]:hover,
+.input:hover {
+    background: #cccccc;
+    border: 1px solid #E72227;
+}
+input[type=date]:hover,
+.input:hover {
+    background: #cccccc;
+    border: 1px solid #E72227;
+}
+#num{
+    width: 150px;
+    height: 12px;
+}
